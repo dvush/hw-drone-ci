@@ -4,6 +4,6 @@ name: default
 
 steps:
 - name: run
-  image: rustlang/rust
+  image: rust
   commands:
   - cargo run
